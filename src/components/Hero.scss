@@ -1,0 +1,39 @@
+.heroSection {
+    background-image: url(../assets/background_hero.png);
+    background-size: auto;
+    background-position: 0;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .heroImage {
+        display: flex;
+        justify-content: center;
+        img{
+            margin-top: 59px;  
+            height: 540px;
+            z-index: -1;
+        }
+    }
+    .heroText {
+        margin: 40px;
+        padding: 50px 50px 0px 0px;
+        h1{
+            font-size: 48px;
+            color:#921C57;
+            letter-spacing: 12px;
+            text-transform: uppercase;
+            font-weight: 400;
+        }
+        .subtitleText{
+            font-size: 18px;
+            color:#656565;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+        }
+
+    }
+
+}

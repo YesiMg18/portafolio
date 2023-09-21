@@ -1,0 +1,185 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+.App {
+  font-family: 'Poppins', sans-serif;
+}
+.aptitudesSection{
+  background-image: url(./assets/background_habilidades.jpg);
+    background-size: auto;
+    background-position: 32px;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 80px 0 ;
+
+    .aptitudesTitle{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      h1{
+        color:#921C57;
+        letter-spacing: 6px;
+        font-size: 24px;
+      }
+    }
+    .aptitudesText{
+      border-left: 8px solid #3C9BA4;
+      height: 520px;
+      padding-left: 32px;
+      margin-right: 180px;
+      h3{
+        font-size: 18px;
+        color:#333333;
+        letter-spacing: 4px;
+      }
+      p{
+        font-size: 16px;
+      }
+    }
+}
+.habilitiesSection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1{
+    font-size: 24px;
+    color: #333333;
+    letter-spacing: 6px;
+  }
+  .habilitiesCards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 80px;
+    div{
+      background-color: #FFFFFF;
+      box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.15);
+      border-radius: 20px;
+      margin: 0 50px;
+      padding:32px;
+      text-align: center;
+      img{
+        width:46px ;
+      }
+      h4{
+        color: #921C57;
+        font-size: 18px;
+        letter-spacing: 4px;
+      }
+      p{
+        font-size: 12px;
+      }
+
+    }
+  }
+}
+.skillSection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1{
+    font-size: 24px;
+    color: #333333;
+    letter-spacing: 6px;
+    margin-bottom: 60px;
+  }
+
+  .imageSkills{
+    img{
+      margin:24px;
+      width: 70 px;
+    }
+
+  }
+
+}
+.academicSection{
+  background-image: url(./assets/background_formacion.jpg);
+    background-size: auto;
+    background-position: 0;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 820px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 80px 0;
+    .academicTitle{
+      display: flex;
+      justify-content: center;
+      margin-top: 160px;
+      h1{
+        font-size: 24px;
+        color: #333333;
+        letter-spacing: 6px;
+      }
+    }
+    .academicText{
+      margin: 0 120px 0 0;
+      div{
+        margin: 60px 0;
+      }
+      h2{
+        font-size: 24px;
+        color: #333333;
+        letter-spacing: 5px;
+      }
+      h4{
+        font-size: 18px;
+        color: #921C57;
+        font-weight: 400;
+        margin: 8px 0;
+      }
+      p{
+        font-size: 16px;
+        color: #656565;
+        margin: 4px 0;
+      }
+      .academicTextRight{
+        text-align: right;
+      }
+    }
+}
+.contactSection{
+  margin: 100px 0;
+  .contactTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    h1{
+      color:#3F3F3F;
+      letter-spacing: 6px;
+      font-size: 24px;
+    }
+  }
+  .contactContainer{
+
+    margin: 0 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    .contactEmail{
+      display: flex;
+      align-items: center;
+      font-size: 20px;
+      color: #333333;
+      img{
+        margin: 0 20px;
+      }
+    }
+    .contactSocial{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      a{
+        background-color: #921C57;
+        margin: 0 40px;
+        padding: 24px;
+        width: 32px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 12px;
+      }
+    }
+  }
+}
