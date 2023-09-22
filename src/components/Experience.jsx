@@ -41,7 +41,7 @@ export const ExperienceCards = () =>{
                             <p><b>Platimex</b> - Junio 2020 - Abril 2021</p>
                         </div>
                         <div className="experienceDescription">
-                            <p>Diseño Web , Diseño de WebApp y Apps , Diseño UI Landing pages, Diseño de Dashboards y CRM's, Branding , Maquetado Front-End React , SASS , CSS3 , HTML 5 </p>
+                            <p>Diseño Web , Diseño de WebApp y Apps , Diseño UI Landing pages, Diseño de Dashboards y CRM&apos;s, Branding , Maquetado Front-End React , SASS , CSS3 , HTML 5 </p>
                         </div>
                     </div>
                     </div>
@@ -74,7 +74,7 @@ export const ExperienceCards = () =>{
                             <p><b>Effie Collage</b> - Mayo 2018 - Junio 2018</p>
                         </div>
                         <div className="experienceDescription">
-                            <p>Finalistas en estrategia de marketing y campañas publicitarias de la marca TONWAS , en Ecuador , linea gráfica, rediseño de marca y logotipo , diseño de afiches , gif's , distinción del producto en puntos de venta.</p>
+                            <p>Finalistas en estrategia de marketing y campañas publicitarias de la marca TONWAS , en Ecuador , linea gráfica, rediseño de marca y logotipo , diseño de afiches , gif&apos;s , distinción del producto en puntos de venta.</p>
                         </div>
                     </div>
                     </div>

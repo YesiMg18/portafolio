@@ -1,5 +1,7 @@
+import React from 'react';
+
 import './App.scss';
-import {HeroPrincipal} from './components/Hero.js';
+import {HeroPrincipal} from './components/Hero.jsx';
 import UiIcon from "./assets/icon-ui.png";
 import WebIcon from "./assets/icon-web.png";
 import DesignIcon from "./assets/icon-design.png";
@@ -22,8 +24,8 @@ import BehanceIcon from "./assets/behance.svg";
 import GithubIcon from "./assets/github.svg";
 import LinkedinIcon from "./assets/linkedin.svg";
 import FiverrIcon from "./assets/fiverr.svg";
-import {ExperienceCards} from './components/Experience.js';
-import {Projects} from './components/Projects.js';
+import {ExperienceCards} from './components/Experience.jsx';
+import {Projects} from './components/Projects.jsx';
 
 function App() {
   return (
