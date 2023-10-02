@@ -46,7 +46,7 @@ function App() {
           </div>
           <div>
             <h3>AUTOAPRENDIZAJE</h3>
-            <p>Capacidad de anticiparme a lo que pueda surgir , capacidad de tener diferentes enfoques para resolver un problema. Inquietud por mejorar la eficacia de los resultados.</p>
+            <p>Capacidad de seguir capacitando, sentido de la responsabilidad y constancia</p>
           </div>
         </div>
       </section>
@@ -80,16 +80,12 @@ function App() {
         <img src={IdImage}/>
         <img src={XdImage}/>
         <img src={AeImage}/>
-        </div>
-       <div>
         <img src={FigmaImage}/>
         <img src={InImage}/>
         <img src={MiroImage}/>
         <img src={SublimeImage}/>
         <img src={NotionImage}/>
         <img src={SketchImage}/>
-        </div>
-       <div>
         <img src={VisualImage}/>
         <img src={JiraImage}/>
         </div>

@@ -37,3 +37,32 @@
     }
 
 }
+
+/*Mediaqueries*/
+
+@media screen and (max-width: 768px){
+    .heroSection{
+        background-image: none;
+        grid-template-columns: 1fr;
+        height: auto;
+        .heroImage{
+            margin: 4px;
+            padding: 4px;
+            img{
+                display: none;
+            }
+        }
+        .heroText{
+            h1{
+                font-size: 32px;
+                letter-spacing: 6px;
+            }
+            .subtitleText{
+                font-size: 16px;
+            }
+            p{
+                font-size: 14px;
+            }
+        }
+    }
+}

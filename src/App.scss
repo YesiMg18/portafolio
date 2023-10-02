@@ -84,6 +84,10 @@
   }
 
   .imageSkills{
+    div{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
     img{
       margin:24px;
       width: 70 px;
@@ -179,6 +183,85 @@
         align-items: center;
         justify-content: center;
         border-radius: 12px;
+      }
+    }
+  }
+}
+
+/*Mediaqueries*/
+
+@media screen and (max-width: 768px){
+  .aptitudesSection{
+    grid-template-columns: 1fr;
+    margin: 40px;
+    .aptitudesTitle{
+      justify-content: left;
+      border-bottom: 8px solid #3C9BA4;
+    }
+    .aptitudesText{
+      border: none;
+      margin: 20px 0px 40px 0px;
+      padding: 0px;
+      height: auto;
+      h3{
+        font-size: 16px;
+      }
+      p{
+        font-size: 14px;
+      }
+    }
+  }
+  .habilitiesSection{
+    .habilitiesCards{
+      margin: 24px;
+      grid-template-columns: 1fr 1fr;
+      div{
+        margin: 24px;
+        padding: 24px;
+      }
+      img{
+        width: 24px;
+      }
+    }
+  }
+  .skillSection{
+    .imageSkills{
+      div{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
+    }
+  }
+  .academicSection{
+    grid-template-columns: 1fr;
+    height: auto;
+    background-position: -80px;
+    text-align: right;
+    margin:60px 0px;
+    .academicTitle{
+      justify-content: right;
+      margin: 40px 32px;
+    }
+    .academicText{
+      div{
+        margin: 32px 0;
+      }
+      display: flex;
+      flex-direction: column;
+      justify-content: right;
+      margin: 32px;
+
+    }
+  }
+  .contactSection{
+    .contactTitle{
+      margin: 24px 0;
+    }
+    .contactContainer{
+      grid-template-columns: 1fr;
+      margin: 24px 0;
+      .contactEmail{
+        justify-content: center;
+        margin-bottom: 32px;
       }
     }
   }

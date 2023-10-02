@@ -25,3 +25,14 @@
         letter-spacing: 2px;
     }
 }
+
+/*Mediaqueries*/
+
+@media screen and (max-width: 768px){
+    .experienceSection{
+        margin-top: -40px;
+        .experienceJobs{
+           grid-template-columns: 1fr; 
+        }
+    }
+}
