@@ -16,6 +16,9 @@
             height: 540px;
             z-index: -1;
         }
+        .photoMobile{
+            display: none;
+        }
     }
     .heroText {
         margin: 40px;
@@ -63,6 +66,21 @@
             p{
                 font-size: 14px;
             }
+        }
+    }
+}
+@media screen and (max-width: 375px){
+    .heroSection{
+        .heroImage{
+            .photoMobile{
+                display: block;
+                width: auto;
+                height: 300px;
+            }
+        }
+        .heroText{
+            margin: 24px;
+            padding: 24px;
         }
     }
 }

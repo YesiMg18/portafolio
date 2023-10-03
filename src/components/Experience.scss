@@ -36,3 +36,17 @@
         }
     }
 }
+@media screen and (max-width: 375px){
+    .experienceSection{
+        margin: 18px 0;
+        .experienceJobs{
+            margin: 24px;
+        }
+        .experienceTitle{
+            padding: 24px;
+        }
+        .experienceText{
+            padding: 12px;
+        }
+    }
+}

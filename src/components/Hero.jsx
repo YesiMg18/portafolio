@@ -1,5 +1,6 @@
 import * as React from "react";
 import ImageProfile from "../assets/foto_hero.png"
+import ImageMobile from "../assets/photo-mobile.png"
 import './Hero.scss'
 
 
@@ -11,6 +12,7 @@ export const HeroPrincipal = () =>{
             <section className="heroSection">
                 <div className="heroImage">
                     <img src={ImageProfile}/>
+                    <img className="photoMobile" src={ImageMobile}/>
                 </div>
                 <div className="heroText">
                     <h1>Hola soy Yesica</h1>

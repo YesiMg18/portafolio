@@ -266,3 +266,73 @@
     }
   }
 }
+
+@media screen and (max-width: 375px){
+  .aptitudesSection{
+    margin: 24px;
+    .aptitudesTitle{
+      justify-content: center;
+    }
+    .aptitudesText{
+      text-align: center;
+      margin: 32px 0px 32px 0px;
+      div{
+        margin: 32px 0;
+      }
+    }
+  }
+  .habilitiesSection{
+    justify-content: center;
+    text-align: center;
+    .habilitiesCards{
+      grid-template-columns: 1fr;
+    }
+  }
+  .skillSection{
+    .imageSkills{
+      div{
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  }
+  .academicSection{
+    background-image: none;
+    margin:18px 24px ;
+    text-align: left;
+    .academicTitle{
+      margin: 24px;
+    }
+    .academicText{
+      margin: 24px;
+      div{
+        margin: 20px 0;
+      }
+      h2{
+        margin: 8px 0;
+      }
+      .academicTextRight{
+      text-align: left;
+    }
+    }
+    
+  }
+  .contactSection{
+    .contactContainer{
+    grid-template-columns: 1fr;
+    margin: 32px 0;
+    .contactEmail{
+      img{
+        margin: 0 8px;
+      }
+    }
+    .contactSocial{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding-left: 40px;
+      a{
+        margin: 24px;
+      }
+    }
+  }
+  }
+}
